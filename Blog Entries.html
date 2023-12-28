@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT111 Blog Entries | Throy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .header {
+            position: right;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 25px;
+            color: whitesmoke;
+            text-decoration: none;
+            text-shadow: black 5px 5px;
+            padding-top: 10px;
+            padding-right: 10px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            font-size: 23px;
+            color: white;
+            text-decoration: none;
+            text-shadow: 5px;
+            padding-top: 10px;
+            padding-right: 10px;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .navbar a {
+            width: 350px;
+            color: whitesmoke;
+            text-decoration: none;
+            text-shadow: black 5px 5px;
+            padding-top: 5px;
+            padding-left: 30px;
+            margin-left: 20px;
+            text-align: center;
+            outline: none;
+            transition: .3s;
+        }
+
+        .navbar a:hover,
+        .navbar a:active {
+            color: rgb(201, 6, 6);
+        }
+
+        .home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10%;
+        }
+
+        .home-content {
+            height: 50vh;
+            line-height: 1.5;
+            max-width: 600px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+            height: 88%;
+            align-items: center;
+        }
+
+        .col {
+            flex-basis: 50%;
+            text-align: left;
+            margin-left: 50px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            max-width: none;
+        }
+
+        .html body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .col h1 {
+            color: white;
+            text-shadow: black 5px 5px;
+            font-size: 50px; 
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+
+        .col p {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-family: Ink Free;
+            text-shadow: black 5px 5px;
+            max-width: 500px;
+            margin-top: 5px;
+            padding: 10px;
+            border: 15;
+            border-radius: 25px;
+            margin-bottom: 10px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            justify-content: flex-end;
+        }
+
+        .card {
+            width: 280px;
+            height: 350px;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 25px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card1 {
+            background-image: url(img1.png);
+        }
+
+        .card2 {
+            background-image: url(img2.png);
+        }
+
+        .card3 {
+            background-image: url(img3.png);
+        }
+
+        .card4 {
+            background-image: url(img4.png);
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 10px;
+            position: left;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="#" class="logo">IT111 BLOG ENTRIES</a>
+            <nav class="navbar">
+                <a href="index.html" class="active">HOME</a>
+                <a href="Blog Entries.html" class="active">BLOG ENTRIES</a>
+                <a href="Flex Page.html" class="active">FLEX PAGE</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col">
+            <h1>ENTRIES</h1>
+            <p>BSIT students, along with others from the College of Technologies, participating in the <b>NSTP Tree Planting Event</b> <b>Week of Welcoming</b>, and roleplay practice during their <b>1st Semester</b> of SY 2023-2024.</p>
+        </div>
+        <div class="col">
+            <div class="card-container">
+                <div class="card card1"></div>
+                <div class="card card2"></div>
+                <div class="card card3"></div>
+                <div class="card card4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="margin-bottom: 1%;">&copy; Throy Antipuesto 2023.</p>
+    </div>
+
+</body>
+</html>

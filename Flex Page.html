@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Page | Throy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(1.jpg);
+            background-size: cover;
+            background-position: cover;
+        }
+
+        .header {
+            position: right;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 25px;
+            color: whitesmoke;
+            text-decoration: none;
+            text-shadow: black 5px 5px;
+            padding-top: 10px;
+            padding-right: 10px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navbar {
+            font-size: 23px;
+            color: white;
+            text-decoration: none;
+            text-shadow: 5px;
+            padding-top: 10px;
+            padding-right: 30px;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .navbar a {
+            width: 350px;
+            color: whitesmoke;
+            text-decoration: none;
+            text-shadow: black 5px 5px;
+            padding-top: 5px;
+            padding-left: 30px;
+            margin-left: 20px;
+            text-align: center;
+            outline: none;
+            transition: .3s;
+        }
+
+        .navbar a:hover,
+        .navbar a:active {
+            color: rgb(201, 6, 6);
+        }
+
+        .home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10%;
+        }
+
+        .home-content h1 {
+            width: auto;
+            color: whitesmoke;
+            text-shadow: black 5px 5px;
+            font-size: 23px;
+            line-height: 1;
+            font-weight: 700;
+            text-align: center;
+            padding: 10px 20px;
+            background: transparent;
+            border: 5;
+            border-radius: 30px;
+            outline: none;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .video-heading {
+            margin-top: 10px;
+            color: white;
+            text-shadow: black 2px 2px;
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: 10;
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 5px;
+            position: left;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+    <body>
+        <header>
+            <div class="header">
+                <a href="#" class="logo">FLEX PAGE</a>
+                <nav class="navbar">
+                    <a href="index.html" class="active">HOME</a>
+                    <a href="Blog Entries.html" class="active">BLOG ENTRIES</a>
+                    <a href="Flex Page.html" class="active">FLEX PAGE</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+                <h1>STREET FIGHTER 6 | A.K.I REVEAL TRAILER</h1>
+                <div class="video" style="text-align: center;">
+                    <br>
+                    <h2 class="video-heading">A.K.I is a Chinese Kenpo and Shequan (Snake Kung Fu) user, along with her poison-focused attacks, she still carried on despite being a homeless orphan as a kid who had nothing to do but to steal from other people to survive. Now, she's an assassin who mastered the uses of poisons trained by F.A.N.G, and gained knowledge on Chinese medicine and her poison's side effects. She's my type of fighter, creepy and sadistic. Nothing brings her more joy than testing her poisons on her enemies. Though she only resorts to killing if she's ordered to do so, and prefers to use "pain and unbridled fear" to scare others and keep them out of her business. I am proud that I get to play as A.K.I in Street Fighter 6 and enter tournaments along with high-ranked players around the world.</h2>
+                
+                    <!-- Video source from Youtube-->
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_871izU8Fpg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="max-width: 900px; margin-bottom: 0%; margin-top: 1%;"></iframe>
+                </div>
+                
+                
+            </div>
+            
+        </section>
+
+        <div class="footer">
+            <p style="margin-bottom: 1%;">&copy; Throy Antipuesto 2023.</p>
+        </div>
+    </body>
+</html>
